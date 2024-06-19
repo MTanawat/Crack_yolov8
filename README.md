@@ -1,16 +1,11 @@
 ## Usage
 install requirements.txt
-## Arguments
---img_path: Path to the input image.
---model_path: Path to the YOLO model.
---patch_size: Number of patches in rows and columns. 
---output_image_path: Path to save the reconstructed image.
 
-## Requirements
-* Linux (Ubuntu)
-* Python = 3.9
-* Pytorch = 1.13.1
-* NVIDIA GPU + CUDA CuDNN
+## Arguments
+* --img_path: Path to the input image.
+* --model_path: Path to the YOLO model.
+* --patch_size: Number of patches in rows and columns.
+* --output_image_path: Path to save the reconstructed image.
   
 Example Command
  ```
