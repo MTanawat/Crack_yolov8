@@ -1,6 +1,7 @@
 ## Usage
-install requirements.txt
-
+```
+pip install -r requirements.txt
+```
 ## Arguments
 * --img_path: Path to the input image.
 * --model_path: Path to the YOLO model.
